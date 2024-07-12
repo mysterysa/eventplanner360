@@ -1,0 +1,14 @@
+.home-container {
+  position: relative;
+  background-color: lavender;
+}
+
+.slider-wrapper {
+  position: relative;
+}
+
+.home-container p {
+  font-size: large;
+  font-weight: normal;
+  margin-block: 50px;
+}

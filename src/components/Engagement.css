@@ -1,0 +1,52 @@
+.gallery-page {
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+p {
+  font-size: 2em;
+  margin-bottom: 5px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-us-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.contact-image {
+  flex: 1;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-image img {
+  max-width: 80%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  height: 50%;
+}
+
+.contact-image h3 {
+  text-align: justify;
+}
+
+@media (max-width: 768px) {
+  .contact-us-container {
+    flex-direction: column;
+  }
+}

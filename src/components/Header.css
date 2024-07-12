@@ -1,0 +1,75 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 20px;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .logo-text {
+    color: #334e22;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 1.5em;
+    margin: 0;
+  }
+  
+  .nav {
+    flex-grow: 1;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    margin-left: 350px;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+  }
+  
+  .social-buttons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-buttons .social-icon {
+    margin: 0 5px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(55, 55, 230); /* Adjust as necessary */
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: large;
+  }
+  
+  .book-now {
+    background-color: #6140d6;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+  }
+  
